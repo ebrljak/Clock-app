@@ -12,31 +12,35 @@ body {
 }
 
 .clock {
-    top: 40%;
+    top: 43%;
     background-color: rgba(217, 217, 217, 0.19);
     height: 121px;
     width: 378px;
     position: absolute;
-    padding-top: 45px;
+    padding-top: 40px;
 }
+
+
 
 #H, #M, #S, #period {
     background-color: #FDFFAA;
-    height: 98px;
-    width: 96px;
-    padding-top: -45px;
+    height: 58px;
+    width: 66px;
+    margin-top: 2.5px;
     text-align: center;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
-    padding-top: 20px;
-    padding-bottom: 20px;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-top: 21px;
+    padding-bottom: 21px;
+    padding-left: 16.5px;
+    padding-right: 16.5px;
 }
 
+
+
 #H {
-    margin-left: 35px;
+    margin-left: 30px;
 }
 
 #M, #S, #period {
@@ -45,14 +49,25 @@ body {
 
 #dot {
     font-size: 24px;
-    text-decoration: bold;
+    text-decoration: dotted;
     margin-left: 15px;
 }
 
-
-@media only screen and (min-width: 390px) {
+@media only screen and (min-width: 500px) {
     .clock {
-        left: 3%;
+        left: 10%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .clock {
+        left: 18%;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .clock {
+        left: 26%;
     }
 }
 
